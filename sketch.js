@@ -21,18 +21,20 @@ function setup() {
   submitButton.mousePressed(submitScore);
 
   // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyC-EdvASdYKq8CFRYz7Xi9ZOG39K0wMYcM",
-      authDomain: "table-group-randomizer.firebaseapp.com",
-      databaseURL: "https://table-group-randomizer.firebaseio.com",
-      projectId: "table-group-randomizer",
-      storageBucket: "table-group-randomizer.appspot.com",
-      messagingSenderId: "1061758235591",
-      appId: "1:1061758235591:web:1e7ce1715193ef7f2fdfe2",
-      measurementId: "G-ZKRSPR6DXK"
-    };
-    // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+  var firebaseConfig = {
+    apiKey: "AIzaSyC-EdvASdYKq8CFRYz7Xi9ZOG39K0wMYcM",
+    authDomain: "table-group-randomizer.firebaseapp.com",
+    databaseURL: "https://table-group-randomizer.firebaseio.com",
+    projectId: "table-group-randomizer",
+    storageBucket: "table-group-randomizer.appspot.com",
+    messagingSenderId: "1061758235591",
+    appId: "1:1061758235591:web:61e87572a0c17bdb2fdfe2",
+    measurementId: "G-9JC6WGC2CM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  database = firebase.database();
+//  firebase.analytics();
 console.log(firebase);
 }
 
