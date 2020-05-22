@@ -2,6 +2,7 @@
 // http://codingtra.in
 // http://patreon.com/codingtrain
 // Code for: https://youtu.be/7lEU1UEw3YI
+>>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
 let names_ = ['','','','','','','','','','','','','','','',''];
 let name_arr = []; // this is where the name array is randomized and set up as a 2D array for later
 
@@ -249,6 +250,7 @@ function setup() {
  console.log(firebase)
 
 }
+>>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
 
 function submitScore() {
   var data = {
@@ -259,3 +261,4 @@ function submitScore() {
   var ref = database.ref('scores');
   ref.push(data);
 }
+>>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
