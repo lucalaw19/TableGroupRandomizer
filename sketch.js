@@ -234,31 +234,31 @@ function setup() {
         return master_arr; // returns the 2D array (a 2D array is and array of arrays [[items],[more, items],...]
     }// try writing your own version of this, what wrote is frankly not great (there is a story tho)
 
-  var firebaseConfig = {
-   apiKey: "AIzaSyC-EdvASdYKq8CFRYz7Xi9ZOG39K0wMYcM",
-   authDomain: "table-group-randomizer.firebaseapp.com",
-   databaseURL: "https://table-group-randomizer.firebaseio.com",
-   projectId: "table-group-randomizer",
-   storageBucket: "table-group-randomizer.appspot.com",
-   messagingSenderId: "1061758235591",
-   appId: "1:1061758235591:web:df2a66d2e521d1282fdfe2",
-   measurementId: "G-RL1HHMQ72S"
- };
- // Initialize Firebase
- firebase.initializeApp(firebaseConfig);
- firebase.analytics();
- console.log(firebase)
-
-}
->>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
-
-function submitScore() {
-  var data = {
-    initials: initialInput.value(),
-    score: score
-  }
-  console.log(data);
-  var ref = database.ref('scores');
-  ref.push(data);
-}
->>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
+//   var firebaseConfig = {
+//    apiKey: "AIzaSyC-EdvASdYKq8CFRYz7Xi9ZOG39K0wMYcM",
+//    authDomain: "table-group-randomizer.firebaseapp.com",
+//    databaseURL: "https://table-group-randomizer.firebaseio.com",
+//    projectId: "table-group-randomizer",
+//    storageBucket: "table-group-randomizer.appspot.com",
+//    messagingSenderId: "1061758235591",
+//    appId: "1:1061758235591:web:df2a66d2e521d1282fdfe2",
+//    measurementId: "G-RL1HHMQ72S"
+//  };
+//  // Initialize Firebase
+//  firebase.initializeApp(firebaseConfig);
+//  firebase.analytics();
+//  console.log(firebase)
+//
+// }
+// // >>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
+// 
+// function submitScore() {
+//   var data = {
+//     initials: initialInput.value(),
+//     score: score
+//   }
+//   console.log(data);
+//   var ref = database.ref('scores');
+//   ref.push(data);
+// }
+// >>>>>>> dd02d44b0528b23476d4426a1bd55fe43963d7af
